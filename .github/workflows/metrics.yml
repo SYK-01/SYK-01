@@ -15,31 +15,31 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_display: large  # Más grande y visible
           config_order: base.header, isocalendar, languages, achievements, habits, activity, topics
-          
-          # Plugins para mejor que el ejemplo
+          filename: github-metrics.svg  # Genera el archivo SVG
+          committer_token: ${{ secrets.GITHUB_TOKEN }}  # Para commit auto
           isocalendar: yes  # Calendario 3D isométrico
           isocalendar_duration: full-year
-          
           languages: yes  # Barras de lenguajes con % y bytes
           languages_limit: 8
           languages_details: bytes-size, percentage
           languages_colors: github  # Colores GitHub neón
-          
           achievements: yes  # Badges de logros (estrella, pull requests, etc.)
           achievements_threshold: C  # Muestra desde nivel C
           achievements_display: compact
-          
           habits: yes  # Hábitos de código (commits por día/hora)
           habits_from: 200  # Analiza últimos 200 eventos
           habits_days: 14   # Últimas 2 semanas
-          
           activity: yes  # Gráfico de actividad por hora/día
           activity_limit: 0  # Todo
-          
           topics: yes  # Temas de repos (AI, terminal, etc.)
           topics_mode: icons
           topics_limit: 15
-          
+          # Extra vibe: Música si quieres (conecta Spotify)
+          # music: yes
+          # music_provider: spotify
+          # music_token: TU_SPOTIFY_TOKEN
+          # music_limit: 5
+
           # Extra vibe: Música si quieres (conecta Spotify)
           # music: yes
           # music_provider: spotify
