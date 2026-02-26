@@ -1,1 +1,1 @@
-![GitHub Metrics](https://metrics.lecoq.io/SYK-01?template=terminal&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&isocalendar=1&languages=1&languages.limit=8&languages.details=percentage%2C%20bytes-size&achievements=1&achievements.threshold=C&achievements.display=compact&habits=1&habits.from=200&habits.days=14&activity=1&topics=1&topics.mode=icons&topics.limit=15&config.timezone=America%2FLima)
+
